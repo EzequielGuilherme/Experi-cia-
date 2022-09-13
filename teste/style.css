@@ -1,0 +1,177 @@
+/* página index */
+ h1 {
+    font-size: 30px;
+    margin:0 ;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    color: #DC143C;
+  }
+
+  h2{
+    font-size: 15px;
+    margin: 0%;
+    padding: 0%;
+    transition: 3s;
+  }
+
+  h1:hover{
+    color: black;
+    border: solid black 1px;
+  }
+
+  
+  a:link {
+    text-decoration: none;
+    color: #DC143C;
+
+} 
+  
+  /*margem do navbar*/
+  header .navbar {
+    padding: 0;
+    margin: 0;
+    background-color: #1a52ad;
+  }
+  
+  /*arruma  os nomes na mesma linha*/
+  header .navbar ul {
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 30px;
+    color: white;
+  }
+
+  /*tira as bolinhas*/
+  header .navbar ul li {
+    list-style: none;
+  }
+
+  /*tiro o texto de link*/
+  header .navbar ul li a {
+    text-decoration: none;
+    color: var(--cyan);
+    font-weight: 600;
+    font-size: 19;  
+  }
+
+  /*deixa o botão animado*/
+  header .navbar ul li a:hover {
+    text-decoration: none;
+    color: #DC143C;
+    -webkit-transition: 0.35s all ease-in-out;
+    transition: 0.35s all ease-in-out;
+  }
+header{
+   margin-top: 10px 100px;
+    padding: 0px; 
+    
+}
+header#header {
+    margin: 0px;
+   /* background-color: #1a52ad;
+     */
+}
+
+header#header {
+  margin: 0px;
+  background-color: #1a52ad;
+}
+
+.container-body {
+    margin: 0px;
+    border: 0px;
+    padding: 124px;
+    background-color: #a7b1e9;
+    color: #222;
+    padding-left: 200;
+}
+
+img{
+    margin: -239px 0px;
+    margin-left: 687px;
+    width: 53%;
+    padding: 0;
+
+}
+
+h2.h2{
+    font-size: 3rem;
+    padding: 0%;
+    margin: 0;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0rem;
+    font-size: 1.5rem;
+}
+
+h3{
+    color:   #DC143C;
+    text-decoration: none;
+    font-size: 1.7rem;
+}
+
+h3:hover{
+    color:   #970623;
+    -webkit-transition: 0.35s all ease-in-out;
+    transition: 0.35s all ease-in-out;
+
+}
+
+/* página login */
+body#login{
+background-color: #a7b1e9;
+
+}
+
+.container-login{
+  padding: 100PX;
+  margin: 0PX;
+  background-color: #a7b1e9;
+}
+
+
+img#img2 {
+  margin: 0px -400PX;
+  width: 61%;
+  padding: 10px;
+}
+
+.FORM2 {
+    MARGIN: -349PX 30;
+}
+
+form {
+    padding: 35px;
+    margin-left: 467px;
+    text-align: left;
+}
+
+.login-dflex {
+  margin: -92px;
+} 
+
+a#linkregi {
+  margin-left: 169px;
+}
+
+/* página de cadastro */
+
+.container-register{
+background-color: #a7b1e9;
+
+}
+
+form#cadastro {
+  margin: 0px 503px 5px 0px;
+  background-color: #a7b1e9;
+}
+
+img#imgregister {
+  margin: -756px 66px 0px 812px;
+  width: 68%;
+}
